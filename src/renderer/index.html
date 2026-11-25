@@ -1,0 +1,20 @@
+review
+<!doctype html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>NEON SLASH</title>
+    <meta
+      http-equiv="Content-Security-Policy"
+      content="default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline'; img-src 'self' data: blob:"
+    />
+    <style>
+      html, body { margin: 0; padding: 0; background: #0a0e17; overflow: hidden; }
+      canvas { display: block; }
+    </style>
+  </head>
+  <body>
+    <canvas id="game"></canvas>
+    <script type="module" src="./src/renderer3d.ts"></script>
+  </body>
+</html> 
